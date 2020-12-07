@@ -25,12 +25,15 @@ public class ScoreManager : MonoBehaviour
     public bool scoreIncreasing = false;
 
     public string playerName = "noName";
+    [SerializeField]
+    private Text playerNameText;
 
     private void Start()
     {
         LoadPlayerData();
         startPosition = player.transform.position.y;
         gameManager = FindObjectOfType<GameManager>();
+        playerNameText.text = playerName;
     }
 
     private void Update()

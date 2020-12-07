@@ -916,7 +916,7 @@ Transform:
   m_GameObject: {fileID: 640387806}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.0069999695, z: 0}
-  m_LocalScale: {x: 3.1035833, y: 3, z: 1}
+  m_LocalScale: {x: 3.3891127, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -2354,6 +2354,7 @@ MonoBehaviour:
   player: {fileID: 1139988209}
   scoreIncreasing: 1
   playerName: noName
+  playerNameText: {fileID: 818085746}
 --- !u!4 &1760242245
 Transform:
   m_ObjectHideFlags: 0
@@ -2634,7 +2635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -218, y: 189}
+  m_AnchoredPosition: {x: -218, y: 161}
   m_SizeDelta: {x: 300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2066225342
